@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRSite3", "HRSite3\HRSite3.csproj", "{9FFFC0D0-568D-4995-9D88-EDD8FECF7782}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HRSite3", "HRSite3\HRSite3.csproj", "{9FFFC0D0-568D-4995-9D88-EDD8FECF7782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRData", "HRData\HRData.csproj", "{92D47EDE-4AA2-40A9-BBF6-84FE501D4960}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRDataTests", "HRDataTests\HRDataTests.csproj", "{75E32DFF-1631-4107-851E-2522D26E2168}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{9FFFC0D0-568D-4995-9D88-EDD8FECF7782}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FFFC0D0-568D-4995-9D88-EDD8FECF7782}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FFFC0D0-568D-4995-9D88-EDD8FECF7782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92D47EDE-4AA2-40A9-BBF6-84FE501D4960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92D47EDE-4AA2-40A9-BBF6-84FE501D4960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92D47EDE-4AA2-40A9-BBF6-84FE501D4960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92D47EDE-4AA2-40A9-BBF6-84FE501D4960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75E32DFF-1631-4107-851E-2522D26E2168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E32DFF-1631-4107-851E-2522D26E2168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E32DFF-1631-4107-851E-2522D26E2168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E32DFF-1631-4107-851E-2522D26E2168}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
